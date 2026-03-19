@@ -1,0 +1,11 @@
+global_var: 1
+static_var: 1
+local_var: 1
+
+global_var: 2
+static_var: 2
+local_var: 1
+
+global_var: 3
+static_var: 3
+local_var: 1

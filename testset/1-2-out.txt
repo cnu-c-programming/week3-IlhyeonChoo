@@ -1,0 +1,2 @@
+Welcome to Computer Programming 03 Lab!
+5 25
