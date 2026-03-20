@@ -18,7 +18,10 @@ void my_sum(char type, int count, ...) {
   switch (type) {
     case 'S': {
       for (int i = 0; i < count; i++) {
-        printf("%s ", va_arg(ap, char*));
+        printf("%s", va_arg(ap, char*));
+        if (i < count - 1) {
+          printf(" ");
+        }
       }
       printf("\n");
       break;
@@ -39,4 +42,6 @@ void my_sum(char type, int count, ...) {
       break;
     }
   }
+
+  va_end(ap);
 }
